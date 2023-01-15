@@ -1,0 +1,373 @@
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+header button {
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 7px 10px;
+}
+
+.nav1 {
+    border-bottom: 1.2px solid black;
+}
+
+.flexTrend {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+#marginTrend {
+    margin-bottom: 1em;
+}
+
+
+/* HEADER */
+
+
+header {
+    background-color: #ffc017;
+    width: 100%;
+}
+
+#logo {
+    scale: 0.9;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    position: sticky;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style-type: none;
+    margin-right: 30px
+}
+
+#headStart {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+#text {
+    padding: 92px 0;
+    margin-left: 50px;
+
+}
+
+h1 {
+    font-size: 106px;
+    font-family: 'Spectral', serif;
+    font-weight: 400;
+    letter-spacing: -4px;
+    margin-bottom: 25px;
+}
+
+#text p {
+    font-size: 24px;
+    width: 75%;
+    margin-bottom: 40px;
+}
+
+#text button {
+    font-size: 1.2em;
+    width: 200px;
+}
+
+#svg {
+    position: absolute;
+    right: 0;
+}
+
+
+
+/* TRENDLOGO */
+
+section {
+    padding: 2.5em 5vw;
+    border-bottom: 1px solid lightgray
+}
+
+#imgTrend {
+    scale: 1.2
+}
+
+#trendMex {
+    font-size: 0.9em;
+    margin-left: 0.75em;
+    font-weight: 600;
+}
+
+
+/*CARD*/
+
+#cardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly
+}
+
+
+
+.card {
+    display: flex;
+    width: 28vw;
+    margin: 25px 0
+}
+
+
+.flexyCard {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+#number {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 2em;
+    font-weight: 700;
+    opacity: 15%;
+    margin: 0.1em 0.5em 0 0;
+}
+
+.imgCardH2 {
+    margin-left: -5px;
+}
+
+.marginCard {
+    margin-bottom: 0.5em;
+}
+
+.imgCard {
+    border-radius: 50px;
+    scale: 0.5;
+}
+
+.article {
+    text-decoration: none;
+    color: inherit;
+}
+
+.point {
+    padding: 6em;
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 0.8em;
+    margin-left: 6px;
+}
+
+h3 {
+    font-weight: 900;
+    font-size: 0.9em;
+}
+
+h4 {
+    opacity: 70%;
+    font-family: 'Work Sans', sans-serif;
+    letter-spacing: -1.2px;
+    font-size: 0.85em;
+}
+
+/* ARTICLE */
+
+#sectionArt {
+    display: flex;
+    justify-content: space-around;
+}
+
+#conteinerArticles {
+    width: 65vw;
+}
+
+article {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.articleText {
+    margin-right: 20px;
+    width: 100%;
+}
+
+.write {
+    margin-left: -10px;
+}
+
+.flexArt {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.radius {
+    border-radius: 30px;
+    width: 25px;
+}
+
+.marginArticle {
+    margin-bottom: 0.5em;
+    margin-top: 0.5rem;
+}
+
+article h5 {
+    font-size: 1.25em;
+    font-weight: 800;
+}
+
+article p {
+    color: gray;
+}
+
+.fontSize {
+    font-size: 0.9em;
+}
+
+.positioning {
+    position: relative;
+}
+
+.maledettaStella {
+    margin-left: 5px;
+}
+
+.bookMark {
+    position: absolute;
+    right: 0;
+    bottom: 5px
+}
+
+.articleTag {
+    border: none;
+    color: black;
+    padding: 5px 7px;
+    border-radius: 15px;
+}
+
+.articleImg {
+    height: 125px;
+    right: -50px;
+}
+
+
+/* ASIDE */
+
+#discoverParts {
+    margin-left: 13px;
+
+}
+
+#discoverParts h2 {
+    margin-bottom: 1em;
+}
+
+#tagsList {
+    padding: 0px 10px 20px;
+    width: 100%;
+    border-bottom: 1px solid lightgray;
+}
+
+#tagsList button {
+    background-color: white;
+    color: #666666;
+    border: 1px solid lightgray;
+    border-radius: 2px;
+    margin: 3px;
+    padding: 7px 8px;
+}
+
+footer {
+    width: 100%;
+}
+
+#discoverParts ul {
+    margin-top: 1em;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#discoverParts li {
+    font-size: 0.8em;
+    color: #666666;
+    list-style-type: none;
+    padding: 10px;
+
+}
+
+/* MEDIA QUERY */
+
+@media screen and (max-width: 480px) {
+
+    nav {
+        display: flex;
+        align-items: center;
+        padding: 20px 30px;
+        position: sticky;
+        justify-content: space-evenly;
+    }
+
+
+    #cardContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: -173px;
+    }
+
+    article {
+        display: flex;
+        margin-bottom: 40px;
+        flex-direction: column;
+        width: 190px;
+        margin-left: 20px;
+    }
+
+    #discoverParts {
+        margin-left: 40px;
+    }
+
+    #marginTrend {
+        margin-left: 58px;
+    }
+
+    #sectionArt {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+
+@media screen and (max-width: 880px) {
+    .via {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    svg {
+        display: none;
+    }
+
+    #discoverParts {
+        width: 18em;
+    }
+}
